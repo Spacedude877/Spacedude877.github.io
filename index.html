@@ -3,58 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simple Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Escopedia:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
   </head>
-  <body style="background-color: #94ee9c;">
+  <body>
     <!-- Navigation -->
     <nav>
       <ul>
         <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
       </ul>
     </nav>
 
-    <!-- Home Section -->
+    <!-- Landing Page Section -->
     <section id="home">
-      <h1>G'day Mate! Welcome to Kendrick's Portfolio</h1>
-      <p>How's it going? I'm just a newbie having a crack at HTML and Swift, so don't judge too harshly!</p>
+      <div class="profile-container">
+        <div class="profile-circle">
+          <img src="path-to-your-profile-pic" alt="Profile Picture">
+        </div>
+        <h1 class="name">Your Name</h1>
+        <p class="occupation">Your Occupation</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+      <div class="about-description">
+        <p>Short description about me</p>
+      </div>
+      <div class="hobbies-carousel">
+        <div class="hobby-circle">
+          <i class="hobby-icon"></i>
+          <p>Hobby 1</p>
+        </div>
+        <!-- Repeat for other hobbies -->
+      </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects">
-      <h2>Projects I have worked on so far</h2>
-      <div class="project">
-        <h3>AR Halloween Pumpkin Interactive Display</h3> 
-        <p>Experience a halloween AR face project that projects a pumpkin over your face and moves according to your mouth and eyes. Try winking [• ᴗ <]</p>
-        <p>This project involved learning how to model using .scn models within Xcode and then using ARKit to create an interactive display using documentation from apple to help me achieve the multi-face tracking experience. This project has not been publicly shared just yet, but I do plan on pushing this project to a public repository in the near future.</p>
-      </div>
-      <div class="project">
-        <h3>Monkey Glazer NFT Marketplace</h3>
-        <p>Try this NFT Marketplace that mimics the purchasing process of getting your own NFT. Rest assured that no money is spent in this experience, you simply get to experience the joy of collectiong PixelNFTs :D</p>
-        <p>This swift project involves using procedures and global variables that stores information across different views. This project does not involve using a database to save your data across devices and only temporary saves it within the app data. I plan on pushing this project online soon as well.</p>
+      <div class="project-card">
+        <h2>Project Name</h2>
+        <div class="project-description">
+          <p>Project Description</p>
+        </div>
+        <div class="project-demo">
+          <video controls>
+            <source src="path-to-video" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
       </div>
     </section>
-
-    <!-- About Section -->
-    <section id="about" style="display: flex; align-items: center;">
-      <div style="flex: 1; padding-right: 20px;">
-        <h2>About Me</h2>
-        <p>I'm on a mission to conquer web development, and this is my first iteration of my website. Please don't critize me too harshly.</p>
-        <p>I am a high school student living in Hong Kong who wants to build their coding repertoire in multiple languages.</p>
-        <p>I am only partially experienced in coding using the swift language, currently learning: html</p>
-      </div>
-    </section> 
-
-    <!-- Audio Section --> 
-    <audio controls>
-      <source src="asset/sound.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-
-    <footer>
-      <p>© 2024 Template Portfolio by Graham Budd - Cheers, mate 🤙</p>
-    </footer>
   </body>
 </html>
