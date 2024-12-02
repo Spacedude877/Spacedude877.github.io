@@ -108,3 +108,49 @@ footer {
   text-align: center;
   padding: 40px 20px;
 }
+
+#home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  padding: 0 160px;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 100px;
+  text-align: left;
+}
+
+.profile-circle {
+  width: 400px;
+  height: 400px;
+  flex-shrink: 0;
+  margin: 0;
+}
+
+.profile-info {
+  margin-left: 80px;
+}
+
+.name {
+  margin: 0 0 20px 0;
+  font-size: 4.5em;
+}
+
+.occupation {
+  font-size: 2.2em;
+  color: #4CAF50;
+  margin: 0;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.social-links {
+  margin-top: 30px;
+}
