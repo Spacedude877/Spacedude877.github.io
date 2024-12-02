@@ -113,6 +113,7 @@ footer {
   height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 0;
   margin: 0;
 }
@@ -120,19 +121,18 @@ footer {
 .profile-container {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 100vh;
   padding: 0 160px;
   max-width: 1400px;
   margin: 0 auto;
   gap: 100px;
-  text-align: left;
 }
 
 .profile-circle {
   width: 400px;
   height: 400px;
   flex-shrink: 0;
-  margin: 0;
 }
 
 .profile-info {
