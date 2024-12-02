@@ -188,3 +188,13 @@ footer {
 .hobby-circle p {
   margin: 10px 0;
 }
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
