@@ -165,7 +165,7 @@ footer {
   padding: 0 40px;
 }
 
-.about-description, .hobby-circle {
+.about-description, .hobby-description {
   background-color: #2a2a2a;
   border-radius: 15px;
   padding: 40px 60px;
@@ -175,7 +175,7 @@ footer {
   box-sizing: border-box;
 }
 
-.about-description p {
+.about-description, .hobby-description p {
   margin: 15px 0;
   line-height: 1.8;
   max-width: 800px;
