@@ -175,7 +175,7 @@ footer {
   box-sizing: border-box;
 }
 
-.about-description, .hobby-description p {
+.about-description p, .hobby-description p {
   margin: 15px 0;
   line-height: 1.8;
   max-width: 800px;
@@ -197,4 +197,18 @@ footer {
 
 .social-icon:hover {
   transform: scale(1.1);
+}
+
+.hobby-description {
+  text-align: center;
+}
+
+.hobby-description h2 {
+  text-align: center;
+}
+
+.hobby-description p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
