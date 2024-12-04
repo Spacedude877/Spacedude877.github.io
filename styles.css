@@ -212,3 +212,67 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
+
+.timeline {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr 3px 1fr;
+  color: #e0e0e0;
+}
+
+.timeline__component {
+  margin: 0 20px 20px 20px;
+}
+
+.timeline__component--bg {
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.timeline__date {
+  font-family: 'Source Code Pro', monospace;
+  color: #4CAF50;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.timeline__middle {
+  position: relative;
+  background-color: #4CAF50;
+}
+
+.timeline__point {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15px;
+  height: 15px;
+  background-color: #4CAF50;
+  border-radius: 50%;
+}
+
+.timeline__point--bottom {
+  top: initial;
+  bottom: 0;
+}
+
+.timeline__title {
+  margin: 0;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+.timeline__paragraph {
+  line-height: 1.8;
+  margin: 10px 0 0 0;
+}
+
+.timeline__component--bottom {
+  margin-bottom: 0;
+}
