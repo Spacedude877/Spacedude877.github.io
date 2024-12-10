@@ -267,11 +267,11 @@ footer {
 }
 
 .timeline-item:nth-child(odd) .timeline-date {
-  right: -420px;
+  right: 220px;
 }
 
 .timeline-item:nth-child(even) .timeline-date {
-  left: -420px;
+  left: 220px;
   text-align: left;
 }
 
