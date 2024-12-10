@@ -301,3 +301,9 @@ footer {
   display: table;
   clear: both;
 }
+
+.responsive-video {
+  width: 100%; /* Makes the video responsive */
+  max-width: 600px; /* Set a maximum width */
+  height: auto; /* Maintain aspect ratio */
+}
