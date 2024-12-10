@@ -262,16 +262,16 @@ footer {
   color: #4CAF50;
   font-family: 'Source Code Pro', monospace;
   font-size: 0.9em;
-  width: 200px;
+  width: 240px;
   text-align: right;
 }
 
 .timeline-item:nth-child(odd) .timeline-date {
-  right: 60px;
+  right: 10px;
 }
 
 .timeline-item:nth-child(even) .timeline-date {
-  left: 60px;
+  left: 10px;
   text-align: left;
 }
 
